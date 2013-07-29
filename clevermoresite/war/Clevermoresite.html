@@ -25,6 +25,11 @@
 	ga('create', 'UA-42749063-1', 'clevermore.org');
 	ga('send', 'pageview');
 </script>
+<style type="text/css">
+.nt {
+	color: #000080;
+}
+</style>
 </head>
 
 <body>
@@ -42,24 +47,43 @@
 	</noscript>
 
 	<h1>Clever More, a place for open-source projects.</h1>
+	<h2>Available projects are:</h2>
 
-	<table align="center"> 
+	<table align="center" >
+		<thead style="background-color: blanchedalmond;">
+			<tr>
+				<th>Project Name</th>
+				<th>Description</th>
+				<th>Maven Repository</th>
+				<th>Maven snippet</th>
+			</tr>
+		</thead>
 		<tr>
-			<td colspan="2" style="font-weight: bold;"><h2>Available projects
-				are:</h2></td>
-		</tr>
-		<tr>
-			<td><h2><a target="_blank" href="https://github.com/armangal/SmartExecutor">Smart
-					Executor</a></h2></td>
+			<td><h2>
+					<a target="_blank" href="https://github.com/armangal/SmartExecutor">Smart
+						Executor</a>
+				</h2></td>
 			<td><h4 style="width: 400px">Smart Executor is a
 					light-weight thread execution and thread-pools management
 					framework. The goal of the framework is to provide controllable
 					tasks execution environmet while keeping the executions under tight
 					control and monitoring.</h4></td>
+			<td><a
+				href="https://oss.sonatype.org/content/groups/public/org/clevermore/smartexecutor/">maven</a></td>
+			<td style="width:200px;"><pre
+					style="background-color: #f8f8f8; border: 1px solid #ddd; font-size: 13px; line-height: 19px; overflow: auto; padding: 6px 10px; border-radius: 3px;">
+&lt;dependency&gt;
+	&lt;groupId&gt;org.clevermore&lt;/groupId&gt;
+	&lt;artifactId&gt;smartexecutor&lt;/artifactId&gt;
+	&lt;version&gt;1.0.8&lt;/version&gt;
+&lt;/dependency&gt;
+				</pre></td>
 		</tr>
 		<tr>
-			<td><h2><a href="https://github.com/armangal/SmartMonitoring">Smart
-					Monitoring</a></h2></td>
+			<td><h2>
+					<a href="https://github.com/armangal/SmartMonitoring">Smart
+						Monitoring</a>
+				</h2></td>
 			<td><h4 style="width: 400px">SmartMonitoring is an open
 					source Java Monitoring Platform with HTML (GWT) UI that monitors
 					Java processes via JMX connection. The project might be extended to
@@ -69,9 +93,14 @@
 	</table>
 
 	<hr />
-	<p>
-		Contact us at: <a href="mailto:arman@armangal.com">arman@armangal.com</a>
+	<p style="font-weight: bold;" >
+		Owner 
 	</p>
+	<p>Arman Gal, contact at: <a href="mailto:arman@armangal.com">arman@armangal.com</a>
+	</p>
+	<p style="font-weight: bold;">Contributors:</p>
+	<p>Erdoan Veliev</p>
+	<p>Daniel Gyupchanov</p>
 
 </body>
 </html>
